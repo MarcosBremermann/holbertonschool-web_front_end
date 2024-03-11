@@ -307,8 +307,8 @@ ul.footer {
     text-align: right;
 }
 
-.row {
+.row::after {
     display: table;
-    float: none;
-    content: none;
+    content: "";
+    clear: both;
 }
